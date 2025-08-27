@@ -1,0 +1,144 @@
+/* --------------------------------------------------
+   Brew & Bloom — Global Styles
+   Notes:
+   - This is a minimal, readable stylesheet for the assignment.
+   - Add more styles as you progress.
+----------------------------------------------------- */
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; line-height: 1.6; }
+a { text-decoration: none; }
+img { max-width: 100%; height: auto; display: block; }
+
+.container { max-width: 1080px; margin: 0 auto; padding: 1rem; }
+.logo { font-weight: 700; font-size: 1.25rem; }
+
+/* Navigation */
+.nav { list-style: none; display: flex; gap: 1rem; padding: 0; margin: .5rem 0 0; flex-wrap: wrap; }
+.nav a { padding: .5rem .75rem; border-radius: .5rem; }
+.nav a:hover, .nav a:focus { outline: none; background: #e6efe9; }
+
+/* Hero */
+.hero { position: relative; border-radius: 1rem; overflow: hidden; }
+.hero-text { padding: 1rem 0; }
+.cta-row { display: flex; gap: .75rem; flex-wrap: wrap; }
+
+/* Grid highlights */
+.grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; margin-block: 1rem; }
+.grid-3 article { padding: 1rem; border: 1px solid #eaeaea; border-radius: .75rem; }
+
+/* Cards (shop) */
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; list-style: none; padding: 0; }
+.cards li { border: 1px solid #eee; border-radius: .75rem; padding: 1rem; }
+
+/* Buttons */
+.btn { display: inline-block; padding: .6rem .9rem; border-radius: .6rem; background: #2f6d46; color: white; }
+.btn.outline { background: transparent; color: #2f6d46; border: 2px solid #2f6d46; }
+.btn:hover, .btn:focus { filter: brightness(1.05); }
+
+/* Forms */
+label { display: block; margin-top: .75rem; }
+input, textarea { width: 100%; padding: .6rem; border: 1px solid #ccc; border-radius: .5rem; }
+
+/* Tables */
+table { width: 100%; border-collapse: collapse; margin-block: 1rem; }
+th, td { border: 1px solid #ddd; padding: .6rem; text-align: left; }
+caption { text-align: left; margin-bottom: .5rem; font-weight: 600; }
+
+/* Account Page Styling */
+.form-section {
+   max-width: 400px;
+   margin: 2rem auto;
+   padding: 2rem;
+   background: #fff;
+   border-radius: 12px;
+   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+ }
+ 
+ .auth-form label {
+   display: block;
+   margin: 0.5rem 0 0.2rem;
+   font-weight: bold;
+ }
+ 
+ .auth-form input {
+   width: 100%;
+   padding: 0.6rem;
+   margin-bottom: 1rem;
+   border: 1px solid #ccc;
+   border-radius: 8px;
+ }
+ 
+ .auth-form button {
+   width: 100%;
+   padding: 0.8rem;
+   background:  #2f6d46;
+   color: #fff;
+   border: none;
+   border-radius: 8px;
+   cursor: pointer;
+ }
+ 
+ .auth-form button:hover {
+   background:  #2f6d46;
+ }
+ 
+ .plans {
+   text-align: center;
+   padding: 2rem 1rem;
+ }
+ 
+ .plan-grid {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+   gap: 1.5rem;
+   margin-top: 2rem;
+ }
+ 
+ .plan-card {
+   background: #fff;
+   padding: 2rem;
+   border-radius: 12px;
+   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+ }
+ 
+ .plan-card h3 {
+   margin-bottom: 0.5rem;
+   color:  #2f6d46;
+ }
+ 
+ .plan-card p {
+   font-size: 1.2rem;
+   font-weight: bold;
+ }
+ 
+ .plan-card ul {
+   list-style: none;
+   padding: 0;
+   margin: 1rem 0;
+ }
+ 
+ .plan-card ul li {
+   margin: 0.5rem 0;
+ }
+ 
+ .plan-card button {
+   background:  #2f6d46;
+   color: #fff;
+   border: none;
+   padding: 0.7rem 1.5rem;
+   border-radius: 8px;
+   cursor: pointer;
+ }
+ 
+ .plan-card button:hover {
+   background:  #2f6d46;
+ }
+ 
+ .featured {
+   border: 2px solid  #2f6d46;
+   transform: scale(1.05);
+ }
+ 
+
+/* Footer */
+.footer { margin-top: 2rem; border-top: 1px solid #eee; font-size: .9rem; color: #444; }
