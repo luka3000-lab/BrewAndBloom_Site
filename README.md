@@ -156,7 +156,7 @@ The repository link functions correctly, and the overall code quality and clarit
 - Added hover and focus effects for interactivity.
 - Ensured visual consistency across all pages.
 
-## 3. Responsive Design
+## Responsive Design
 
 This section focuses on making the Brew & Bloom website visually adaptive across all device sizes — desktop, tablet, and mobile — while preserving the original brand identity and design.
 
@@ -201,15 +201,5 @@ The following key breakpoints were applied:
 - **Simplicity:** Clean, spacious sections with accessible font sizes and padding.
 - **Consistency:** Typography, color palette, and card visuals remain identical across breakpoints.
 
-### Date: 2025-10-29  
-**Section 3 – Responsive Design Implementation**
-- Added responsive layout support with CSS media queries for desktop, tablet, and mobile.  
-- Converted fixed `px` units into `rem` and `%` to ensure proportional scaling.  
-- Improved navigation behavior with vertical stacking for smaller screens.  
-- Enhanced readability by adjusting heading and paragraph sizes for each breakpoint.  
-- Added hover and focus states to improve accessibility and user feedback.  
-- Implemented lazy-loading on images for mobile performance optimization.  
-- Conducted browser testing on Chrome, Edge, and Firefox responsive modes.  
-- Captured screenshots for all device breakpoints and stored them in `/screenshots/`.  
-- Validated HTML and CSS using W3C Validators — no errors detected.
+
 
