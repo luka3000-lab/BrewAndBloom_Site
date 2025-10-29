@@ -146,3 +146,14 @@ However, the repository was public and complete at the time of submission. The i
 The Brew & Bloom website is now fully accessible and well-documented.  
 The repository link functions correctly, and the overall code quality and clarity have been improved to meet all Part 2 requirements.
 
+## CSS Styling for Desktop Solution
+
+- Created an external stylesheet named `style.css` and linked it to all HTML pages.
+- Implemented a CSS reset for browser consistency.
+- Defined a neutral color palette inspired by coffee and nature (#fff8f0, #a0522d, #3e2723).
+- Applied consistent typography using ‘Poppins’ and ‘Playfair Display’.
+- Used Flexbox and CSS Grid to build responsive layouts and evenly spaced navigation.
+- Added hover and focus effects for interactivity.
+- Ensured visual consistency across all pages.
+
+
