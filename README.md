@@ -156,4 +156,60 @@ The repository link functions correctly, and the overall code quality and clarit
 - Added hover and focus effects for interactivity.
 - Ensured visual consistency across all pages.
 
+## 3. Responsive Design
+
+This section focuses on making the Brew & Bloom website visually adaptive across all device sizes — desktop, tablet, and mobile — while preserving the original brand identity and design.
+
+### 3.1 Breakpoints
+The following key breakpoints were applied:
+- **Large Desktop (≥1280px):**  
+  Introduced a wider 3:1 content-to-sidebar layout for improved visual balance on large screens.
+- **Desktop / Default (≥1024px):**  
+  Two-column layout (main content + sidebar) for comfortable reading and structure.
+- **Tablet (768px–1023px):**  
+  Layout automatically adjusts to a single column; navigation wraps into multiple lines.
+- **Mobile (<768px):**  
+  All grids and flex containers collapse into a single column; navigation stacked vertically; typography scaled down.
+
+### 3.2 Relative Units
+- Replaced fixed pixel units with **relative units**:
+  - `rem` for font sizes and spacing
+  - `%` for layout widths and image containers
+- This ensures a scalable, consistent layout across all devices.
+
+### 3.3 Responsive Images
+- All `<img>` elements use `max-width: 100%;` and `height: auto;` to maintain proportional scaling.
+- Key images include the `loading="lazy"` attribute for faster performance on mobile.
+- The site is structured to support `<picture>` and `srcset` for adaptive image sources in future updates.
+
+### 3.4 Accessibility and Interactivity
+- Added clear **focus** and **hover** states for all buttons and navigation links.
+- Interactive elements use soft color transitions (`filter: brightness(1.1)`) for visual feedback.
+- Maintained WCAG-friendly contrast between text and backgrounds.
+
+### 3.5 Testing and Validation
+- Tested using Chrome DevTools, Edge, and Firefox Responsive Design Mode.
+- Verified smooth layout transitions across device widths.
+- HTML and CSS validated using W3C Validator and Jigsaw Validator.
+- Screenshots of desktop, tablet, and mobile versions are included in `/screenshots/`:
+  - `desktop-view.png`
+  - `tablet-view.png`
+  - `mobile-view.png`
+
+### 3.6 Design Principles
+- **Content first:** Readability and hierarchy are maintained across all devices.
+- **Simplicity:** Clean, spacious sections with accessible font sizes and padding.
+- **Consistency:** Typography, color palette, and card visuals remain identical across breakpoints.
+
+### Date: 2025-10-29  
+**Section 3 – Responsive Design Implementation**
+- Added responsive layout support with CSS media queries for desktop, tablet, and mobile.  
+- Converted fixed `px` units into `rem` and `%` to ensure proportional scaling.  
+- Improved navigation behavior with vertical stacking for smaller screens.  
+- Enhanced readability by adjusting heading and paragraph sizes for each breakpoint.  
+- Added hover and focus states to improve accessibility and user feedback.  
+- Implemented lazy-loading on images for mobile performance optimization.  
+- Conducted browser testing on Chrome, Edge, and Firefox responsive modes.  
+- Captured screenshots for all device breakpoints and stored them in `/screenshots/`.  
+- Validated HTML and CSS using W3C Validators — no errors detected.
 
