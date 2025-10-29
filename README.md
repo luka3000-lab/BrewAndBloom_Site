@@ -1,6 +1,6 @@
-Brew & Bloom – Website Project 
+## Brew & Bloom – Website Project 
 
-Project Overview 
+### Project Overview 
 
 Brew & Bloom is a fictional small business that combines a boutique café with a plant nursery. The website has been developed as part of a web development project to showcase the company’s services, products, and events. 
 
@@ -8,7 +8,7 @@ The site is fully coded using HTML, CSS, and JavaScript, with a focus on semanti
 
  
 
-File and Folder Structure 
+## File and Folder Structure 
 
 BrewAndBloom/ 
 
@@ -88,7 +88,7 @@ BrewAndBloom/
 
  
 
-Pages 
+## Pages 
 
 Home (index.html) → Introduction, featured products, events. 
 
@@ -106,7 +106,7 @@ Account (account.html) -> User logins, payment details and plans
 
  
 
-Features 
+## Features 
 
 Semantic HTML5 structure (header, nav, main, footer). 
 
@@ -120,8 +120,29 @@ JavaScript for footer year update and future enhancements.
 
  
 
-How to Run 
+## How to Run 
 
-Clone the repository:  
+### Clone the repository:  
 
  https://github.com/luka3000-lab/BrewAndBloom_Site.git 
+
+ ## Working Through Feedback from Part 1
+
+### Feedback Summary
+The feedback for Part 1 stated: *“Cannot access your GitHub repository.”*  
+However, the repository was public and complete at the time of submission. The issue arose because the README file included a placeholder (`yourusername`) instead of my actual GitHub username.
+
+### Corrections and Improvements
+1. Updated the README file with the correct repository link:  
+   [https://github.com/luka3000-lab/BrewAndBloom_Site](https://github.com/luka3000-lab/BrewAndBloom_Site)  
+2. Verified that the repository is public and accessible from multiple devices and browsers.  
+3. Re-uploaded all website files (HTML, CSS, JavaScript, assets, and documentation).  
+4. Added clear indentation, code comments, and consistent formatting.  
+5. Validated all HTML and CSS code using W3C validation tools and resolved minor issues.  
+6. Tested all navigation links and image paths to confirm they function correctly.  
+7. Added this changelog entry as part of Part 2’s improvement process.
+
+### Result
+The Brew & Bloom website is now fully accessible and well-documented.  
+The repository link functions correctly, and the overall code quality and clarity have been improved to meet all Part 2 requirements.
+
