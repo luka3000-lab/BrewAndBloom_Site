@@ -111,13 +111,6 @@ The Brew & Bloom website now:
 
 ---
 
-Once you paste that:
-1. **Save the README file.**
-2. Run:
-   ```bash
-   git add README.md
-   git commit -m "Add Section 4 and final changelog to README"
-   git push origin master
 
 
 
