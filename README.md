@@ -69,18 +69,18 @@ All project files for the Brew & Bloom website are stored in a public GitHub rep
  **Repository Link:** [https://github.com/luka3000-lab/BrewAndBloom_Site](https://github.com/luka3000-lab/BrewAndBloom_Site)
 
 
-### 4.2 Commit Practices
+### Commit Practices
 - Regular commits were made after each milestone (feedback fixes, CSS styling, responsive design, screenshot uploads).  
 - Each commit message clearly describes what was changed or improved.  
 
-### 4.3 Public Access & Verification
+### Public Access & Verification
 - Repository is confirmed **public** and accessible via multiple browsers.  
 - All assets (HTML, CSS, JS, and screenshots) render correctly when cloned.  
 - Verified using incognito mode to ensure no login dependency.  
 - GitHub Pages hosting (optional) for live preview:  
   👉 `https://luka3000-lab.github.io/BrewAndBloom_Site/`
 
-### 4.4 Validation & Testing
+###  Validation & Testing
 - **HTML:** Validated via [W3C Validator](https://validator.w3.org/).  
 - **CSS:** Validated via [Jigsaw CSS Validator](https://jigsaw.w3.org/css-validator/).  
 - **Responsiveness:** Tested in Chrome, Edge, and Firefox using DevTools for:
