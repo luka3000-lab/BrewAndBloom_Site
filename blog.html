@@ -1,55 +1,100 @@
-  <!DOCTYPE html>
-  <html lang="en">
+<!DOCTYPE html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Brew & Bloom — Blog</title>
-    <!-- Author: Student | Project: Brew & Bloom | Description: Static multi-page site -->
+    <!-- Author: Xolile Tyhaliti | Project: Brew & Bloom | Description: Blog page with responsive images -->
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
+
   <body>
-    <!-- Header includes logo + site title -->
+    <!-- ===== HEADER ===== -->
     <header class="container">
       <a class="logo" href="index.html" aria-label="Brew and Bloom Home">☕🌿 Brew &amp; Bloom</a>
 
-  <!-- Global Navigation Menu -->
-  <nav aria-label="Primary">
-    <ul class="nav">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="shop.html">Shop</a></li>
-      <li><a href="events.html">Events &amp; Workshops</a></li>
-      <li><a href="blog.html">Blog</a></li>
-      <li><a href="contact.html">Contact</a></li>
-      <li><a href="account.html">Account</a></li>
-    </ul>
-  </nav>
-
+      <!-- Global Navigation -->
+      <nav aria-label="Primary">
+        <ul class="nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="events.html">Events &amp; Workshops</a></li>
+          <li><a href="blog.html" aria-current="page">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="account.html">Account</a></li>
+        </ul>
+      </nav>
     </header>
 
-    <!-- Main content unique to each page -->
+    <!-- ===== MAIN CONTENT ===== -->
     <main class="container" id="main-content">
+      <h1>Blog</h1>
 
-<h1>Blog</h1>
-<article>
-  <h2>How to Brew a Perfect Pour-Over</h2>
-  <p>Use freshly ground coffee, a gooseneck kettle, and a steady pour in concentric circles.</p>
-  <a href="#">Read more &raquo;</a>
-</article>
-<article>
-  <h2>3 Easy-Care Plants for Beginners</h2>
-  <p>Snake Plant, ZZ Plant, and Pothos thrive in a variety of indoor conditions.</p>
-  <a href="#">Read more &raquo;</a>
-</article>
+      <article>
+        <h2>How to Brew a Perfect Pour-Over</h2>
 
+        <!-- Responsive Image with Lazy Loading -->
+        <picture>
+          <source media="(max-width:768px)" srcset="assets/images/pour-over-small.jpg" />
+          <source media="(max-width:1200px)" srcset="assets/images/pour-over-medium.jpg" />
+          <img
+            src="assets/images/pour-over-large.jpg"
+            alt="A barista pouring hot water over ground coffee"
+            loading="lazy"
+            width="800"
+            height="500"
+          />
+        </picture>
+
+        <p>
+          Use freshly ground coffee, a gooseneck kettle, and a steady pour in concentric circles to achieve a balanced flavor extraction.
+        </p>
+        <a href="#">Read more &raquo;</a>
+
+        <!-- Author/Tag Info -->
+        <aside>
+          <p><strong>Author:</strong> Sarah Mokoena | <strong>Tags:</strong> Coffee, Brewing Tips</p>
+        </aside>
+      </article>
+
+      <article>
+        <h2>3 Easy-Care Plants for Beginners</h2>
+
+        <!-- Responsive Image with Lazy Loading -->
+        <picture>
+          <source media="(max-width:768px)" srcset="assets/images/plants-small.jpg" />
+          <source media="(max-width:1200px)" srcset="assets/images/plants-medium.jpg" />
+          <img
+            src="assets/images/plants-large.jpg"
+            alt="Indoor houseplants including Snake Plant, ZZ Plant, and Pothos"
+            loading="lazy"
+            width="800"
+            height="500"
+          />
+        </picture>
+
+        <p>
+          Snake Plant, ZZ Plant, and Pothos thrive in low-light environments and require minimal watering — perfect for beginners.
+        </p>
+        <a href="#">Read more &raquo;</a>
+
+        <!-- Author/Tag Info -->
+        <aside>
+          <p><strong>Author:</strong> Sipho Nkosi | <strong>Tags:</strong> Gardening, Home Decor</p>
+        </aside>
+      </article>
     </main>
 
-    <!-- Global footer with contact + social -->
+    <!-- ===== FOOTER ===== -->
     <footer class="container footer">
       <p>&copy; <span id="year"></span> Brew &amp; Bloom — Rosebank, Johannesburg</p>
-      <p>Email: <a href="mailto:sarah@brewandbloom.co.za">sarah@brewandbloom.co.za</a> · Phone: +27 82 456 7890</p>
+      <p>
+        Email:
+        <a href="mailto:sarah@brewandbloom.co.za">sarah@brewandbloom.co.za</a> · Phone: +27 82 456 7890
+      </p>
     </footer>
 
     <script src="assets/js/script.js"></script>
   </body>
-  </html>
+</html>
