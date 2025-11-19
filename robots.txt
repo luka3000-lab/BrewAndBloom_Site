@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://luka3000-lab.github.io/BrewAndBloom_Site/sitemap.xml
+Host: luka3000-lab.github.io

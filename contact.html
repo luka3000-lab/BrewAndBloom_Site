@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Brew & Bloom — Contact</title>
-  <!-- Author: Xolile Tyhaliti | Project: Brew & Bloom -->
-  <link rel="stylesheet" href="assets/css/style.css" />
+  <title>Contact — Brew & Bloom, Rosebank</title>
+  <meta name="description" content="Contact Brew & Bloom in Rosebank for orders, workshop bookings and collaborations. Visit our café and plant boutique today.">
+  <link rel="canonical" href="https://luka3000-lab.github.io/BrewAndBloom_Site/contact.html">
+
 </head>
 <body>
   <header class="container">
@@ -48,6 +48,31 @@
       <p><a href="https://maps.google.com" target="_blank" rel="noopener">View on Google Maps</a></p>
     </section>
   </main>
+
+  <form id="contactForm" class="form">
+  <label for="cname">Full Name</label>
+  <input type="text" id="cname" name="cname" required minlength="2">
+
+  <label for="cemail">Email Address</label>
+  <input type="email" id="cemail" name="cemail" required>
+
+  <label for="ctype">Message Type</label>
+  <select id="ctype" name="ctype" required>
+    <option value="">Select</option>
+    <option value="general">General Message</option>
+    <option value="complaint">Complaint</option>
+    <option value="feedback">Feedback</option>
+    <option value="business">Business Enquiry</option>
+  </select>
+
+  <label for="cmessage">Your Message</label>
+  <textarea id="cmessage" name="cmessage" required minlength="10"></textarea>
+
+  <button type="submit">Send Message</button>
+ </form>
+
+ <div id="contactStatus" class="response-box"></div>
+
 
   <footer class="container footer">
     <p>&copy; <span id="year"></span> Brew &amp; Bloom — Rosebank, Johannesburg</p>

@@ -309,3 +309,21 @@ footer {
   h1 { font-size: 1.6rem; }
   .cta-row { flex-direction: column; }
 }
+
+.response-box {
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: .5rem;
+  font-weight: 600;
+}
+
+.response-box.error {
+  background: #ffdedf;
+  color: #8a1f1f;
+}
+
+.response-box.success {
+  background: #e9f7e9;
+  color: #27632a;
+}
+

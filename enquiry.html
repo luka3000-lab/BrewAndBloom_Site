@@ -1,0 +1,26 @@
+<form id="enquiryForm" class="form">
+  <label for="name">Full Name</label>
+  <input type="text" id="name" name="name" required minlength="2">
+
+  <label for="email">Email Address</label>
+  <input type="email" id="email" name="email" required>
+
+  <label for="phone">Phone Number</label>
+  <input type="tel" id="phone" name="phone" pattern="^[0-9+\-\s]{8,15}$" required>
+
+  <label for="type">Enquiry Type</label>
+  <select id="type" name="type" required>
+    <option value="">Select Option</option>
+    <option value="service">Service Enquiry</option>
+    <option value="product">Product Enquiry</option>
+    <option value="volunteer">Volunteer Opportunity</option>
+    <option value="sponsor">Sponsorship</option>
+  </select>
+
+  <label for="details">Additional Details</label>
+  <textarea id="details" name="details" required minlength="10"></textarea>
+
+  <button type="submit">Submit Enquiry</button>
+</form>
+
+<div id="enquiryResponse" class="response-box"></div>
