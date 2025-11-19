@@ -91,23 +91,20 @@ All project files for the Brew & Bloom website are stored in a public GitHub rep
 
 ---
 
-## Change Log
+## 3.x SEO Implementation Checklist
 
-| Date | Section | Description |
-|------|----------|-------------|
-| 2025-10-25 | Feedback Review | Fixed repository access issue (placeholder link). Verified and reuploaded all project files. |
-| 2025-10-26 | CSS Styling | Created `style.css`, defined color palette, typography, and layouts using Flexbox & Grid. |
-| 2025-10-27 | Responsive Design | Added media queries for desktop, tablet, and mobile. Implemented responsive images and tested layouts. |
-| 2025-10-29 | Final Updates | Added screenshots, validation results, and final README documentation. Confirmed repository is public and up to date. |
+- [x] Keywords researched and assigned to pages.
+- [x] Title tags and meta descriptions added to all pages.
+- [x] Header tags structured correctly (H1, H2, H3).
+- [x] Image filenames and alt text updated for SEO.
+- [x] Clean URL structure verified.
+- [x] Internal linking strategy implemented.
+- [x] Mobile-friendly design confirmed.
+- [x] robots.txt and sitemap.xml added to repo root.
+- [x] Page speed optimisations applied (image compression, lazy loading, minification).
+- [x] JSON-LD local business schema implemented.
+- [ ] Backlink outreach plan created (off-page SEO).
 
----
-
-**Submission Complete**
-
-The Brew & Bloom website now:
-- Meets all requirements of Part 2 (CSS styling, responsive design, documentation).  
-- Is publicly hosted and accessible.  
-- Includes full validation, responsive testing, and clear changelog documentation.
 
 ---
 
